@@ -30,5 +30,5 @@ app.use('/users', userRouter);
 app.use('/exercises', exerciseRouter);
 
 app.listen(port, () => {
-    console.log(`Server is running on port: ${port}`);
+    console.log(`Server is running on ${port} port`);
 });
